@@ -18,7 +18,6 @@ const Navbar = () => {
           >
             Marvel
           </NavLink>
-
           <NavLink
             activeClassName="active"
             className="nav-item nav-link"
@@ -26,6 +25,14 @@ const Navbar = () => {
             to="/dc"
           >
             DC
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            className="nav-item nav-link"
+            exact
+            to="/search"
+          >
+            Buscar
           </NavLink>
         </div>
       </div>
